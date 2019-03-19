@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Form JavaScript</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/semantic.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/sp.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="./js/semantic.min.js"></script>
+    <!-- <script src="./js/sp.js"></script> -->
+
+</head>
+
+<body>
+    <div class="ui container">
+
+        <div class="ui  divider"></div>
+
+        <h1 class="ui center aligned header">Formulario 1</h1>
+
+        <h2 class="ui center aligned icon inverted header">
+            <i class="circular users icon"></i> Login
+        </h2>
+
+        <div class="ui text container">
+            <div class="ui segment">
+                <div class="ui form">
+                    <div class="field">
+                        <label>Email</label>
+                        <input type="email" id="email" data-email="Curso ListoSoft" name="email" placeholder="Ingrese su email" maxlength="80" required>
+                    </div>
+                    <div class="required field">
+                        <label>Contraseña</label>
+                        <input type="password" data-pws="Samo" id="pws" name="pws" placeholder="Ingrese la contraseña" maxlength="30" required>
+                    </div>
+                    <div class="field">
+                        <div class="ui checkbox">
+                            <input type="checkbox" tabindex="0" class="hidden">
+                            <label>Recordar mi usuario</label>
+                        </div>
+                    </div>
+                    <div id="pbtn" class="ui yellow button">Submit</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="./js/sp.js"></script>
+
+</html>

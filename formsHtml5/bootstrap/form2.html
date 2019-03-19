@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Form JavaScript</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/sp.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <!-- <script src="./js/sp.js"></script> -->
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="row justify-content-center">
+            <h1 class="jumbotron-heading">Formulario 1</h1>
+
+
+        </div>
+        <hr class="mb-12">
+
+        <div class="row justify-content-center">
+            <h4 class="lead text-muted">Login</h4>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-md-5">
+                <form action="javascript:;" onsubmit="link(this)">
+
+
+                    <div class="mb-3">
+                        <label for="email">Email <span class="text-muted">(obligatorio)</span></label>
+                        <input class="form-control" type="email" id="email" data-email="Curso ListoSoft" name="email" placeholder="Ingrese su email" maxlength="80" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="address">Contraseña <span class="text-muted">(obligatorio)</span></label>
+                        <input class="form-control" type="password" data-pws="Samo" id="pws" name="pws" placeholder="Ingrese la contraseña" maxlength="30" required>
+                    </div>
+                    <button id="pbtn" class="btn btn-primary btn-lg btn-block" type="submit">Continue to checkout</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<script src="./js/sp.js"></script>
+
+</html>

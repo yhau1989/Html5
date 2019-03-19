@@ -1,0 +1,6 @@
+body {
+    /* https://www.css-gradient.com/ */
+    background: -webkit-linear-gradient(left top, rgb(248, 211, 83), rgb(255, 92, 90));
+    background-image: -webkit-linear-gradient(left top, rgb(248, 211, 83), rgb(255, 92, 90));
+    /* https://uigradients.com/#Magic */
+}
