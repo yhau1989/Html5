@@ -1,4 +1,14 @@
 
+
+# Git Server
+
+- https://git-scm.com/
+- https://github.com
+- https://about.gitlab.com/
+- https://bitbucket.org/product/
+
+
+
 # Markdown
 
 Curso Gratuito: https://masteringmarkdown.com/
@@ -25,5 +35,41 @@ https://css-tricks.com/snippets/html/responsive-meta-tag/
 https://wesbos.com
 
 
+
+
+# Api RestFull
+
+http://qasapicredito.deprati.com.ec:2052/giftcard/api/consulta/saldo
+
+{
+  "cuenta": "50010115"
+}
+
+
+
+# Develop Update
+
+- https://gomakethings.com/
+- https://flaviocopes.com/
+- https://wesbos.com
+- https://medium.com/topic/javascript
+- https://dev.to/
+
+
+# Tools HTML Online
+
+https://thimble.mozilla.org/it/
+
+
+
+# Cloud 
+
+- https://aws.amazon.com/
+- https://cloud.google.com/
+- https://www.digitalocean.com/
+- https://www.heroku.com/
+- https://twitter.com/SamuelPilay
+
+ 
 
 
